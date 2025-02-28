@@ -1,0 +1,114 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+    line-height: 1.6; /* Improves readability */
+    background-color: #f9f9f9; /* Light background for a blog feel */
+    color: #333; /* Dark text for contrast */
+    padding: 20px; /* Adds space around the content */
+}
+
+/* Header Styling */
+h1 {
+    text-align: left; /* Centers the main title */
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    margin-bottom: 20px; /* Space below the title */
+    color: #4CAF50; /* Green color for a fresh look */
+}
+
+h1 a {
+    text-decoration: none; /* Removes underline from links */
+    color: #4CAF50; /* Matches the header color */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+h1 a:hover {
+    color: #388E3C; /* Darker green on hover */
+}
+
+/* Recipe Title Styling */
+h2 {
+    font-size: 1.8rem; /* Slightly smaller than the main title */
+    margin: 20px 0; /* Space above and below the recipe title */
+    color: #333; /* Dark text for contrast */
+    text-align: center; /* Centers the recipe title */
+}
+
+/* Image Styling */
+img {
+    display: block; /* Ensures proper alignment */
+    margin: 20px auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures images don't overflow their container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 16px; /* Rounded corners for images */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+img:hover {
+    transform: scale(1.05); /* Slightly zooms in on hover */
+}
+
+/* Description and Ingredients Styling */
+h3 {
+    font-size: 1.5rem; /* Smaller than the recipe title */
+    margin: 20px 0 10px; /* Space above and below each section */
+    color: #007BFF; /* Blue color for headings */
+}
+
+p {
+    font-size: 1rem; /* Standard text size */
+    margin-bottom: 15px; /* Space below paragraphs */
+    text-align: justify; /* Justified text for better readability */
+}
+
+ul {
+    list-style-type: disc; /* Adds bullet points to the list */
+    margin-left: 20px; /* Indents the list */
+    font-size: 1rem; /* Standard text size */
+    margin-bottom: 20px; /* Space below the list */
+}
+
+/* Links Styling */
+a {
+    text-decoration: none; /* Removes underline from links */
+    color: #ff7f50; /* Vibrant coral color for links */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    font-weight: bold; /* Makes links stand out */
+}
+
+a:hover {
+    color: #ff4500; /* Brighter orange on hover */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Adds a glowing effect */
+}
+
+/* Container Styling */
+body {
+    max-width: 800px; /* Limits width for a blog-like layout */
+    margin: 0 auto; /* Centers the content horizontally */
+    background-color: #fff; /* White background for the content area */
+    padding: 50px; /* Inner padding for spacing */
+    border-radius: 16px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Smaller title on smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Adjusts recipe title size for mobile */
+    }
+
+    body {
+        padding: 15px; /* Reduces padding on smaller screens */
+    }
+}

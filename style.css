@@ -1,0 +1,99 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+    line-height: 1.6; /* Improves readability */
+    background-color: #f9f9f9; /* Light background for a blog feel */
+    color: #333; /* Dark text for contrast */
+    padding: 20px; /* Adds space around the content */
+}
+
+/* Header Styling */
+h1 {
+    text-align: center; /* Centers the main title */
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    margin-bottom: 20px; /* Space below the title */
+    color: #4CAF50; /* Green color for a fresh look */
+}
+
+/* Recipe Links Styling */
+h2 {
+    font-size: 1.5rem; /* Slightly smaller than the main title */
+    margin: 15px 0; /* Space above and below each link */
+}
+
+a {
+    text-decoration: none; /* Removes underline from links */
+    color: #007BFF; /* Blue color for links */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Container Styling */
+body {
+    max-width: 800px; /* Limits width for a blog-like layout */
+    margin: 0 auto; /* Centers the content horizontally */
+    background-color: #fff; /* White background for the content area */
+    padding: 50px; /* Inner padding for spacing */
+    border-radius: 16px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Recipe Item Styling */
+.recipe-item {
+    margin-bottom: 20px; /* Space between each recipe item */
+}
+
+.recipe-img-nasgor {
+    height: 183px;
+    width: 275px;
+}
+
+.recipe-item img {
+    max-width: 100%; /* Ensures images don't overflow their container */
+    border-radius: 16px; /* Rounded corners for images */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.recipe-item img:hover {
+    transform: scale(1.05); /* Slightly zooms in on hover */
+}
+
+
+.recipe-item a {
+    text-decoration: none; /* Removes underline from links */
+    color: #ff7f50; /* Vibrant coral color for links */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    font-weight: bold; /* Makes links stand out */
+}
+
+.recipe-item a:hover {
+    color: #ff4500; /* Brighter orange on hover */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Adds a glowing effect */
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Smaller title on smaller screens */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Adjusts link size for mobile */
+    }
+
+    body {
+        padding: 15px; /* Reduces padding on smaller screens */
+    }
+}
